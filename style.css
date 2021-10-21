@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #022126;
+}
+
+h1{
+    color: #A16AE8;
+    font-weight: bold;
+    text-shadow: 2px -1px 1px #6EDE52;
+}
+
+h2{
+    color: #D6E354;
+    font-weight: bold;
+}
+
+.score-time{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+
+.grid{
+    width: 606px;
+	height: 606px;
+	display: flex;
+	flex-wrap: wrap;
+    background-color:#6EDE52;
+    border: solid 8px #A16AE8;
+}
+
+.square{
+    height: 200px;
+	width: 200px;
+	border: solid 1px #A16AE8;
+}
+
+.mole{
+    background-image: url("mole.jpg");
+	background-size: cover;
+}
